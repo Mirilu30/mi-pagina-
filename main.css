@@ -82,7 +82,7 @@ footer p {
     transform: translate(-50%, -50%);
     background: #d63384;
     border-radius: 5px;
-    max-width 500px;;
+    max-width: 500px;
 }
 
 #titulo-formulario {
