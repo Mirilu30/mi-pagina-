@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Protest+Strike&display=swap');
+body{
+    font-family: poetsen, sans-serif;
+    overflow-x: hidden;
+}
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+.carousel-inner {
+    max-height: 100rem;
+    
+}
+
+
+@media (max-width:768px){
+    #intro, #equipo{
+        width:90% !important;
+}
+  
+#equipo p {
+    display: none;
+}
+.servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+ #bg-contactos {
+   
+        top: -110px;
+    }
+
+#bg-contactos {
+    position: relative;
+    top: -130px;
+}
+#seccion-contactos {
+    background-color: blueviolet;
+    min-height: 500px;
+    position: relative;
+}
+    
+footer {
+    background: #d63384;
+    min-height: 100px;
+}
+footer p {
+    color: deeppink;
+    text-align: center;
+}
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #d63384;
+    
+}
+@media (max-width: 576px) {
+    .icono-warp {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+.mapa {
+   background: url(./imagenes/direccion.png);
+   width: 100%;
+   height: 500px;
+}
+
+
+}
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #d63384;
+    border-radius: 5px;
+    max-width 500px;;
+}
+
+#titulo-formulario {
+    color: rgb(139, 19, 231);
+}
